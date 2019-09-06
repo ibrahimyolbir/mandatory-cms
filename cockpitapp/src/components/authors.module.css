@@ -1,0 +1,35 @@
+.container{
+margin: 70px;
+}
+.cardContent{
+    margin-top: 40px;
+}
+.textContent{
+
+}
+.textContent>div{
+margin-top: 20px;
+}
+.authorName{
+
+}
+.authorArticles{
+    font-weight: 700;
+    color: #666;
+}
+.authorAvatar{
+width: 350px;
+}
+.avatar{
+    width: 100%;
+}
+.authorDecription{
+    text-align: justify;
+    word-spacing: 2px;
+    color: #666;
+    font-weight: 400;
+    font-size: 18px;
+}
+.authorDecriptionContent{
+
+}
