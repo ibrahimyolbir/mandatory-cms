@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import MDReactComponent from 'markdown-react-js';
-import styles from "./detailspage.module.css"
+import styles from "./module-css/detailspage.module.css"
 function Detailspage(props) {
     const [articel, updateArticles] = useState(null);
     const { id } = props.match.params;

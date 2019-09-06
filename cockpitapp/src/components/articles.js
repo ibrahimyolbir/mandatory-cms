@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import axios from 'axios';
 import Pagination from "react-hooks-paginator";
-import styles from './articles.module.css';
+import styles from './module-css/articles.module.css';
 function Articles() {
     const pageLimit = 2;
 

@@ -16,6 +16,13 @@ margin-top: 20px;
 .authorArticles{
     font-weight: 700;
     color: #666;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+}
+.authorArticles>span{
+margin-top: 5px;
 }
 .authorAvatar{
 width: 350px;
